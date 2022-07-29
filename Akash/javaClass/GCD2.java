@@ -1,0 +1,21 @@
+package javaClass;
+
+import java.util.*;
+
+public class GCD2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method 
+		Scanner sc=new Scanner(System.in);
+		int divident=sc.nextInt();
+		int divisor=sc.nextInt();
+		while(divident%divisor != 0) {
+			int rem=divident %divisor;
+			divident=divisor;
+			divisor=rem;
+		}
+		System.out.println(divisor);
+
+	}
+
+}

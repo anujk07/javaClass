@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry excluding="sanket/|Deepanshu/|JavaClass/" kind="src" path=""/>
+	<classpathentry kind="src" path="Abhishek"/>
+
 	<classpathentry kind="src" path="Deepanshu"/>
 	<classpathentry kind="src" path="JavaClass"/>
 	<classpathentry kind="src" path="sanket"/>
+	<classpathentry kind="src" path="Akash"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
