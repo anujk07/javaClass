@@ -1,5 +1,3 @@
-package OOPS.ex1;
-
 class Men{
    String name;
    
