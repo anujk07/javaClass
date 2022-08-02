@@ -14,9 +14,10 @@ public class removesameelementfromarray {
 		int n=a.length;
 		int count=0;
 		for(int i=0;i<n;i++) {
-			set.add(a[i]);
+			set.add(i);
 			if(set.contains(a[i])) {
 				count++;
+				set.remove(a[i]);
 				
 			}
 		}
